@@ -33,3 +33,21 @@ mvn -v
 **IMPORTANT NOTE:** We already installed before "C:\Program Files\Java\jdk-1.8\jre"
 
 ![image](https://github.com/luiscoco/Java_with_Maven_Sample/assets/32194879/ca78766b-9c67-4b4a-9b5b-af813f93f672)
+
+## 4. Compile and Run the Java with Maven application
+
+To compile the application run the command:
+
+```
+mvn clean install
+```
+
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/77d02450-df17-448d-9507-15afb4fa7231)
+
+To run the application execute the command:
+
+```
+mvn exec:java 
+```
+
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/3c11bd70-7f34-4c6b-8595-176dd4584e5c)
