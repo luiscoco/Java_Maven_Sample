@@ -32,7 +32,57 @@ mvn -v
 
 ## 4. Create the Java application in VSCode
 
+Open VSCode
 
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/99b4263c-3c47-4099-9769-14d9a8c16fa2)
+
+Press the keys **Ctrl+Shift+P** for creating a **new Java application**
+
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/8b3170f5-28d5-4d02-af12-4f2cf54ca047)
+
+We select **Maven** project type
+
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/a89c55a0-e633-40f2-8e31-1e639a283654)
+
+We select **No Archetype**
+
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/8fe04c54-3a13-46d3-9296-af9fdc2b7268)
+
+We set the package name **com.example**
+
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/b570cb5d-c2cb-4a48-b360-3b61b798322a)
+
+We set the application name
+
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/99274c64-7d2e-4a4e-a815-7826ec39fbbc)
+
+We select the folder where to place the new Java application
+
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/91542e3d-5779-4327-81e3-d64db15e2890)
+
+We open the new Java application
+
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/df4e51c4-59ab-45e0-9881-be3e9d97fd6f)
+
+The original **pom.xml** file not include the **<build>** tag. We will add this tag in the following sections below
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>sample_maven_with_java</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+</project>
+```
 
 ## 5. Java application source code
 
