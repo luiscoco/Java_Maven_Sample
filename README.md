@@ -4,17 +4,17 @@
 
 Download Apache Maven from the web page: https://maven.apache.org/download.cgi
 
-
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/2588a600-4919-4882-935d-f792024793a8)
 
 Unzig the **** file and place the folder in the C: root hard disk
 
-
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/ab3b37c9-6438-4cba-aaf0-537a2f866916)
 
 ## 2. Set the Mavent bin folder in the PATH environmental variable
 
 Copy the bin folder path: C:\apache-maven-3.9.5\bin and paste in the PATH environmental variable
 
-
+![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/6dba2422-7b73-4443-9a73-5fbd291b0ead)
 
 ## 3. Verify Maven installation
 
