@@ -1,7 +1,5 @@
 # Java Maven Sample
 
-# Java with Maven Sample
-
 ## 1. Download and install Apache Maven
 
 Download Apache Maven from the web page: https://maven.apache.org/download.cgi
