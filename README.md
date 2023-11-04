@@ -30,7 +30,11 @@ mvn -v
 
 ![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/e14041f8-794b-4dd3-b5df-27236549fe79)
 
-## 4. Java application source code
+## 4. Create the Java application in VSCode
+
+
+
+## 5. Java application source code
 
 ```java
 package com.example;
@@ -42,7 +46,7 @@ public class Main {
 }
 ```
 
-## 5. Java application pom.xml file
+## 6. Java application pom.xml file
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -97,7 +101,7 @@ public class Main {
 </project>
 ```
 
-## 6. Compile and Run the Java with Maven application
+## 7. Compile and Run the Java with Maven application
 
 To compile the application run the command:
 
@@ -114,4 +118,3 @@ mvn exec:java
 ```
 
 ![image](https://github.com/luiscoco/Java_Maven_Sample/assets/32194879/9252e35b-a276-484d-8784-f4297bcad50b)
-
